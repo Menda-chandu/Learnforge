@@ -15,7 +15,7 @@ export async function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center gap-2 font-bold text-lg">
             <BookOpen className="h-6 w-6 text-primary" />
-            <span>QuizForge</span>
+            <span>Learnforge</span>
           </Link>
           {session?.user && <NavLinks />}
         </div>

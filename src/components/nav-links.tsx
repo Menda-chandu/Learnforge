@@ -9,8 +9,8 @@ export function NavLinks() {
 
   const links = [
     { href: "/dashboard", label: "Dashboard" },
-    { href: "/quizzes", label: "My Quizzes" },
-    { href: "/quizzes/new", label: "Create Quiz" },
+    { href: "/quizzes", label: "Quizzes" },
+    { href: "/decks", label: "Flashcards" },
     { href: "/profile", label: "Profile" },
   ];
 

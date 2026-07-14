@@ -17,8 +17,8 @@ import { Navbar } from "@/components/navbar";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
-  title: "QuizForge",
-  description: "Modern full-stack quiz application",
+  title: "Learnforge",
+  description: "AI-powered study platform with quizzes, flashcards, and Notion integration",
 };
 
 export default function RootLayout({

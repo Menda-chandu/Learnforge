@@ -273,12 +273,14 @@ export default function CreateQuizPage() {
                 </Button>
                 
                 <Dialog open={isNotionDialogOpen} onOpenChange={setIsNotionDialogOpen}>
-                  <DialogTrigger asChild>
-                    <Button size="lg" variant="outline" className="w-full md:w-auto h-14 px-8 text-lg rounded-full shadow-sm hover:shadow-md transition-all">
-                      <Import className="mr-2 h-5 w-5" />
-                      Import from Notion
-                    </Button>
-                  </DialogTrigger>
+                  <DialogTrigger
+                    render={
+                      <Button size="lg" variant="outline" className="w-full md:w-auto h-14 px-8 text-lg rounded-full shadow-sm hover:shadow-md transition-all">
+                        <Import className="mr-2 h-5 w-5" />
+                        Import from Notion
+                      </Button>
+                    }
+                  />
                   <DialogContent className="sm:max-w-md">
                     <DialogHeader>
                       <DialogTitle>Import from Notion</DialogTitle>
